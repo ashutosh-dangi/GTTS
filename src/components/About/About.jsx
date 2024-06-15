@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-        <div data-scroll data-scroll-speed = "-0.2"className=' z-10 pt-24 pb-14  bg-[#CDEA68] rounded-tr-3xl  rounded-3xl text-black'>
+        <div data-scroll data-scroll-speed = "-0.1"className=' z-10 pt-24 pb-14  bg-[#CDEA68] rounded-tr-3xl  rounded-3xl text-black'>
             <p className='ml-14 text-[3.5vw] font-["Neue_Montreal"] leading-[3.5vw] tracking-wide font-light'>Ochi is a strategic partner for fast-growing tech <br/>businesses that need to raise funds, sell products,<br/> explain complex ideas, and hire great people.</p>
 
             <div className='h-[70vh] border-t-[3px] border-[#ADC45B] mt-20 flex justify-between p-4  '>
@@ -24,3 +24,6 @@ const About = () => {
 }
 
 export default About
+
+
+

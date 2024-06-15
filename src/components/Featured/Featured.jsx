@@ -46,8 +46,8 @@ const Featured = () => {
              </div>
             
             <div className='MiddleText absolute  text-[#ADC45B] font-["Founders Grotesk"] text-[6.8vw] font-bold top-1/2 left-1/2 -translate-x-[50%] -translate-y-[50%] leading-none'>
-                {card1Entered && <motion.h1 intial={{height: "0"}} animate={{height: "10vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}>FYDE</motion.h1>}
-                {card2Entered && <motion.h1 intial={{height: "0"}} animate={{height: "10vw"}} transition={{ease: [0.76, 0, 0.24, 1], duration: 1}}>VICE</motion.h1>}
+                {card1Entered && <h1 className='animate-custom_breathing'>FYDE</h1>}
+                {card2Entered && <h1 className='animate-custom_breathing'>VICE</h1>}
             </div>
             
             <div className='CardContainer w-[45.25vw] h-[40vw] '>

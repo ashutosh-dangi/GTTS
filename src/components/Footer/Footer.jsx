@@ -2,13 +2,13 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='w-full h-[110vh] flex bg-[#e0e0e0]'>
-      <div className='w-1/2 h-full  px-14 flex flex-col justify-between py-7'>
+    <div className='w-full  flex bg-[#e0e0e0]'>
+      <div className='w-1/2 h-full   flex flex-col justify-between py-7'>
         <div className='HeadingContainer'>
-          <h1 className='text-[7.8vw]  leading-none font-semibold tracking-[-0.13em] mt-16'>EYE-</h1>
+          <h1 className='text-[7.8vw]  leading-none font-semibold tracking-[-0.13em] mt-[2.6vw]'>EYE-</h1>
           <h1 className='text-[7.8vw] leading-none  font-semibold tracking-[-0.13em]'>OPENING</h1>
         </div>
-        <div className='LogoContainer'>
+        <div className='LogoContainer mt-[58vh]'>
           <svg className='scale-110 text-zinc-900 ml-2' width="72" height="30" viewBox="0 0 72 30" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path d="M9.8393 10.2032C4.22951 10.3257 -0.0459221 14.7356 0.000372391 20.2752C0.0412204 25.3548 4.57808 30.3608 10.6862 29.9226C15.5145 29.5768 19.9015 25.4119 19.8525 20.0057C19.8035 14.5995 15.1904 10.0916 9.8393 10.2032ZM9.89649 25.7005C6.87101 25.7005 4.39834 23.1144 4.40924 19.9839C4.39525 19.2507 4.52792 18.522 4.79947 17.8407C5.07102 17.1594 5.47597 16.5392 5.99056 16.0164C6.50515 15.4937 7.11902 15.0789 7.79613 14.7966C8.47324 14.5142 9.19995 14.3698 9.93362 14.372C10.6673 14.3742 11.3931 14.5228 12.0686 14.8092C12.744 15.0956 13.3554 15.514 13.8668 16.0398C14.3783 16.5656 14.7796 17.1882 15.0471 17.8711C15.3146 18.554 15.4429 19.2834 15.4246 20.0166C15.4409 23.1008 12.9111 25.7059 9.88832 25.7005H9.89649Z" fill="currentColor"></path>
               <path d="M62.8086 29.4855H67.1222V10.6372H62.8086V29.4855Z" fill="currentColor"></path>
@@ -23,32 +23,32 @@ const Footer = () => {
         
           <h1 className='text-[7.8vw]  leading-none font-semibold tracking-[-0.13em] mt-[5.9vw]'>PRESENTATIONS</h1>
           <div className=' mt-9 ml-2 w-[8vw]'>
-            <h1 className='text-[1.2vw]'>S:</h1>
+            <h1 className='text-[1.2vw] transition ease delay-0 duration-[470ms] hover:scale-[0.87] '>S:</h1>
             {["Instagram","Behance","Facebook","Linkedin"].map((item,index)=>(
-              <h1 key={index} className={`text-[1.1vw] ${index==0 && "mt-4"}`}>{item}</h1>
+              <h1 key={index} className={`text-[1.1vw] ${index==0 && "mt-4"} transition ease delay-0 duration-[470ms] hover:scale-[0.87]`}>{item}</h1>
             ))}
           </div>
           
           <div className='flex justify-between   mt-8'>
               <div className='  ml-2 w-[12vw]'>
-                <h1 className='text-[1.2vw]'>L:</h1>
+                <h1 className='text-[1.2vw] transition ease delay-0 duration-[470ms] hover:scale-[0.87]'>L:</h1>
                 {["202-1965 W 4th Ave","Vancouver, Canada","30 Chukarina St","Lviv, Ukraine"].map((item,index)=>(
-                  <h1 key={index} className={`text-[1.1vw] ${index==0 && "mt-4"} ${index==2 && "mt-3"}`}>{item}</h1>
+                  <h1 key={index} className={`text-[1.1vw] ${index==0 && "mt-4"} ${index==2 && "mt-3"} transition ease delay-0 duration-[470ms] hover:scale-[0.87] `}>{item}</h1>
                 ))}
               </div>
 
               <div className=' mt-2 mr-8 w-[8vw]'>
-                <h1 className='text-[1.2vw]'>M:</h1>
+                <h1 className='text-[1.2vw] transition ease delay-0 duration-[470ms] hover:scale-[0.87]'>M:</h1>
                 {["Home","Services","Our work","About us","Insights","Contact us",].map((item,index)=>(
-                  <h1 key={index} className={`text-[1.1vw] ${index==0 && "mt-4"}`}>{item}</h1>
+                  <h1 key={index} className={`text-[1.1vw] ${index==0 && "mt-4"} transition ease delay-0 duration-[470ms] hover:scale-[0.87]`}>{item}</h1>
                 ))}
               </div>
           </div>
           
           <div className=' mt-9 ml-2 w-[10vw]'>
-            <h1 className='text-[1.2vw]'>E:</h1>
+            <h1 className='text-[1.2vw] transition ease delay-0 duration-[470ms] hover:scale-[0.87]'>E:</h1>
             {["hello@ochi.design",].map((item,index)=>(
-              <h1 key={index} className={`text-[1.1vw] ${index==0 && "mt-2"}`}>{item}</h1>
+              <h1 key={index} className={`text-[1.1vw] ${index==0 && "mt-2"} transition ease delay-0 duration-[470ms] hover:scale-[0.87] `}>{item}</h1>
             ))}
           </div>
 
@@ -64,4 +64,5 @@ const Footer = () => {
   )
 }
 
-export default Footer
+export default Footer;
+
